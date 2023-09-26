@@ -4,7 +4,7 @@ Submitted by: **Chelsea Heredia**
 
 About this web app: **This app provides a simple recipe list and resource for college students new to cooking!**
 
-Time spent: **4** hours
+Time spent: **7** hours
 
 ## Required Features
 
@@ -14,8 +14,8 @@ The following **required** functionality is completed:
 - [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
 - [X] **The web app displays a title**
 - [X] **The web app displays at least five list items, each with at least three attributes (such as title, text, and image url)**
-- [] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [ ] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
+- [X] **The user can click on each item in the list to see a detailed view of it, including all database fields**
+  - [X] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
 - [X] **The web app serves an appropriate 404 page when no matching route is defined**
 - [] **The web app is appropriately styled using Picocss**
 
@@ -31,9 +31,10 @@ The following **additional** features are implemented:
 
 **Note: please be sure to 
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented required features: Gif 1 shows demo. Gif 2 shows details page and routing.
 
 <img src='https://github.com/chelseah02/Listicle/blob/main/Listicle-Pt1-Demo1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/chelseah02/Listicle/blob/main/Listicle-Pt1-Demo2.gif' title='Video Walkthrough #2' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  ScreenToGif
@@ -46,6 +47,8 @@ GIF created with ...  ScreenToGif
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
 I am currently challenged with linking the detail page of each recipe. Right now it is a blank page with you click Read More. I will continue working on this until the 72 hours deadline passes.
+
+9/25/2023 Update: Required feature including details page complete. I solved this challenge by fixing the routing paths in the router file and also paths when linking the header.js and recipe.js files in recipe.html.
 
 ## License
 
