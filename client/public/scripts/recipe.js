@@ -1,6 +1,6 @@
 const renderRecipe = async () => {
     const requestedID = parseInt(window.location.href.split('/').pop())
-
+    console.log("In recipe.js!")
     const response = await fetch('/recipes')
     const data = await response.json()
 

@@ -5,7 +5,7 @@ const renderRecipes = async () => {
     const mainContent = document.getElementById('main-content')
 
     if (data) {
-
+        console.log(data)
         data.map(recipe => {
             const card = document.createElement('div')
             card.classList.add('card')
