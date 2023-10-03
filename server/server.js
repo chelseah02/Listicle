@@ -1,5 +1,5 @@
 import express from 'express'
-
+import './config/dotenv.js'
 import recipesRouter from './routes/recipes.js'
 
 const app = express()
