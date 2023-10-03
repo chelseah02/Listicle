@@ -4,7 +4,7 @@ Submitted by: **Chelsea Heredia**
 
 About this web app: **This recipe app functions as a cookbook with a variety of fun recipes for beginners!**
 
-Time spent: **3** hours
+Time spent: **5** hours
 
 ## Required Features
 
@@ -12,9 +12,9 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [ ] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
-- [ ] **The PostgreSQL database includes a table that matches the data displayed in the web app**
-  - [ ] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
+- [X] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+- [X] **The PostgreSQL database includes a table that matches the data displayed in the web app**
+  - [X] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
 
 The following **optional** features are implemented:
 
@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://github.com/chelseah02/Listicle/blob/main/Listicle-Pt1-Demo1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/chelseah02/Listicle/blob/main/Listicle-Pt2-FinalDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  ScreenToGif
@@ -40,7 +40,8 @@ GIF created with ...  ScreenToGif
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
-As of 9/29/2023: There is an error with syntax (with the arrow function) in the reset.js that I am unable to correct in a manner that will allow the connection to PostgresSQL database. Will correct this over the next few days.
+Solved challenged of arrow function syntax and pool connection setup that was causing initial difficulty. All operations are performed through Railway database as GIF demo indicates.
+
 
 ## License
 
